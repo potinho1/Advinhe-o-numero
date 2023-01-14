@@ -2,10 +2,11 @@ import random
 
 jogadas = 0
 
+print("""Tente acertar o número que o computador está pensando!
+    Números de 1 a 10\n""")
 
 while True:
-    jogador = int(input("""Tente acertar o número que o computador está pensando!
-    Números de 1 a 10\n"""))
+    jogador = int(input(">"))
 
     computador = random.randint(1, 11)
 
